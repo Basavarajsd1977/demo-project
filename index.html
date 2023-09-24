@@ -4,14 +4,19 @@
   <title>Hello World</title>
   <style>
     body {
-      background-color: red; /* Set the background color to red */
-      color: white; /* Set the text color to white for better visibility on red */
+      background-color: lightblue; /* Set the background color to light blue */
+      color: black; /* Set the text color to black for better visibility on light blue */
       padding: 20px; /* Add some padding to the content */
+      font-family: Arial, sans-serif; /* Set the font-family for the content */
+    }
+    .special-words {
+      font-weight: bold; /* Make the special words bold */
+      color: red; /* Set the color of the special words to red */
     }
   </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
+  <h1>Hello, <span class="special-words">World</span>!</h1>
   
   <label for="search">Search:</label>
   <input type="text" id="search" name="search" placeholder="Enter your search term"><br><br>
@@ -24,13 +29,16 @@
   
   <button type="submit">Submit</button>
   
-  <h2>Check out these extraordinary websites:</h2>
+  <h2>Check out these <span class="special-words">extraordinary</span> websites:</h2>
   <ul>
     <li><a href="https://www.example.com">Example Website 1</a></li>
     <li><a href="https://www.example.com">Example Website 2</a></li>
   </ul>
   
-  <h2>Upload your documents:</h2>
-  <input type="file" id="file" name="file"><br><br>
+  <h2>Explore these <span class="special-words">development learning</span> templates:</h2>
+  <ul>
+    <li><a href="https://www.example.com/development-template1">Development Template 1</a></li>
+    <li><a href="https://www.example.com/development-template2">Development Template 2</a></li>
+  </ul>
 </body>
 </html>
